@@ -4,7 +4,7 @@ public class GradeDemo {
     public static void main(String[] args){
         double testScore; //holds test score
         Scanner s = new Scanner(System.in);
-        GradedActivity grade = new GradedActivity(); //creates a GradedActivity object
+        GradedActivity2 grade = new GradedActivity2(); //creates a GradedActivity object
 
         System.out.print("Enter a numeric test score: ");
         testScore = s.nextDouble();

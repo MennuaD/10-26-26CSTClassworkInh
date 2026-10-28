@@ -40,10 +40,12 @@ public class Cuboid extends rectangle{
 
     }
 
+    @Override
     public int getLength(){
         return super.getLength();
     }
 
+    @Override
     public int getWidth(){
         return super.getWidth();
     }
@@ -80,10 +82,12 @@ public class Cuboid extends rectangle{
         this.setHeight(height);
     }
 
+    @Override
     public void calcArea(){
         this.area = super.getLength() * super.getWidth() * getHeight();
     }
 
+    @Override
     public int getArea(){
         return this.area;
     }

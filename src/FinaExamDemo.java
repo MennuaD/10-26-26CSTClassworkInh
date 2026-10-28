@@ -13,7 +13,7 @@ public class FinaExamDemo {
         System.out.print("How many questions did the student miss? ");
         missed = s.nextInt();
         //creates FinalExam object, extending GradedActivity
-        FinalExam exam = new FinalExam(questions, missed);
+        FinalExam2 exam = new FinalExam2(questions, missed);
         System.out.println("Each question counts as " + exam.getPointsEach() + " points.");
         System.out.println("The exam score is " + exam.getScore());
         System.out.println("The exam grade is " + exam.getGrade());
